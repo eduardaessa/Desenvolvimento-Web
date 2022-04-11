@@ -1,0 +1,27 @@
+
+
+a {
+    color: red;
+}
+
+.no-style a{
+    text-decoration: none;
+    padding-inline-start: 0px;
+
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.no-style img{
+    height: 10px;
+    width: 10px;
+    margin-left: 0px;
+}
+
+img {
+    height: 64px;
+    border-radius: 64px;
+}
