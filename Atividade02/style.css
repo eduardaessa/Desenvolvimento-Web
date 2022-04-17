@@ -1,0 +1,105 @@
+* {
+    color:rgb(15, 20, 25)   ;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.no-style a{
+    text-decoration: none;
+    padding-inline-start: 0px;
+    color: rgb(15, 20, 25) 
+
+
+}
+
+.estatisticas a {
+    color:  rgb(83, 100, 113);
+}
+
+.estatisticas li:hover {
+    text-decoration: underline;
+}
+
+.alt-color {
+    color: rgb(15, 20, 25);
+    font-weight: bold;
+}
+
+.info li {
+    color: rgb(83, 100, 113);
+}
+
+.no-style li {
+    border-radius: 50px;
+    width: fit-content;
+    padding: 10px 20px 10px 10px;
+}
+
+.no-style li:hover {
+    background-color: rgba(15, 25, 20, 0.1)
+}
+
+.no-style img{
+    height: 15px;
+    width: 15px;
+    margin-left: 0px;
+}
+
+img {
+    height: 48px;
+    width: 48px;
+    border-radius: 64px;
+}
+
+.tzeet {
+    margin-bottom: 20px;
+    width: 400px;   
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tzeet:hover {
+    background-color:  rgba(249, 24, 128, 0.1);
+
+}
+
+.username {
+    color: rgb(83, 100, 113);
+}
+
+.links {
+    display: flex;
+}
+
+.links li {
+    padding: 10px;
+    border-radius: 50px;
+    color: rgb(83, 100, 113);
+    width: fit-content;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.links li:first-child:hover {
+    color: rgba(29, 155, 240, 1);
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.links li:last-child:hover {
+    color: rgba(29, 155, 240, 1);
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.links li:nth-child(2):hover {
+    color: rgba(0, 186, 124, 1);
+    background-color: rgba(0, 186, 124, 0.1) ;
+}
+.links li:nth-child(3):hover {
+    color: rgba(249, 24, 128, 1);
+    background-color: rgba(249, 24, 128, 0.1);
+}
