@@ -1,0 +1,252 @@
+* {
+    color:rgb(15, 20, 25);
+}
+
+.perfil-icon h4 {
+    font-size: 18px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    display: flex;
+}
+
+.menu-lateral-direito {
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+    flex-direction: column;
+    width: 100px;
+    margin-right: 100px;
+}
+
+.menu-lateral-direito .card  {
+    background-color:  rgb(239, 243, 244);
+    border:none !important;
+}
+
+.transparent-input {
+    background-color:rgba(0,0,0,0) !important;
+    border:none !important;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color:  #eff3f4;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 40px;
+}
+
+.perfil-sugerido {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.perfil-sugerido span {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu-lateral-esquerdo {
+    display: flex;
+    padding: 10px 10px 0px 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    margin:20px  20px;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.profile {
+    padding: 0px 20px;
+}
+
+.perfil-icon img {
+    height: 120px;
+    width: 120px;
+}  
+
+.icon {
+    height: 48px;
+    width: 48px;
+}
+
+.profile-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-links li {
+    justify-content: center;
+
+}
+
+.no-style a{
+    text-decoration: none;
+    padding-inline-start: 0px;
+    color: rgb(15, 20, 25) 
+
+
+}
+
+.estatisticas {
+    padding: 0px;
+}
+
+.estatisticas a {
+    color:  rgb(83, 100, 113);
+    text-decoration: none;
+}
+
+.estatisticas li:hover {
+    text-decoration: underline;
+}
+
+.alt-color {
+    color: rgb(15, 20, 25);
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    gap: 5px;
+    padding: 0px;
+}
+
+.info li {
+    color: rgb(83, 100, 113);
+}
+
+.perfil {
+    display: flex;
+    padding-top: 64px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.no-style li {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px 20px 10px 10px;
+}
+
+.no-style li:hover {
+    background-color: rgba(15, 25, 20, 0.1)
+}
+
+.lista-menu-esquerdo i{
+
+    margin-right: 10px;
+}
+
+.lista-menu-esquerdo li{
+    border-radius: 50px;
+    width: 100%;
+    padding: 10px 20px 10px 10px;
+    font-size: 22px;
+}
+
+.lista-menu-esquerdo li:hover {
+    background-color: rgba(15, 25, 20, 0.1)
+}
+
+.menu-lateral-esquerdo button {
+    margin-top: 10px;
+    width: 90%;
+}
+
+.icon {
+    height: 48px;
+    width: 48px;
+    border-radius: 64px;
+}
+
+.user {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.tzeet {
+    margin-bottom: 20px;
+    width: 100%;   
+    padding: 20px;
+}
+
+.tzeet-body {
+    padding-left: 20px ;
+}
+
+.tzeet:hover {
+    background-color:  rgba(184, 184, 184, 0.1);
+
+}
+
+.username {
+    color: rgb(83, 100, 113);
+}
+
+.links {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding: 0rem 4rem;
+}
+
+.links li {
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: rgb(83, 100, 113);
+    width: fit-content;
+}
+
+.links li i {
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links .blue i:hover {
+    color: rgba(29, 155, 240, 1);
+    background-color: rgba(29, 155, 240, 0.1);
+}
+
+.links .green i:hover {
+    color: rgba(0, 186, 124, 1);
+    background-color: rgba(0, 186, 124, 0.1) ;
+}
+
+.links .pink i:hover {
+    color: rgba(249, 24, 128, 1);
+    background-color: rgba(249, 24, 128, 0.1);
+}
